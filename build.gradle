@@ -1,5 +1,7 @@
 plugins {
 	id 'fabric-loom' version '0.10-SNAPSHOT'
+	id 'eclipse'
+	id 'java'
 }
 
 println 'Used ikisugi gradle template...'
