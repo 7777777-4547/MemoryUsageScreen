@@ -21,6 +21,8 @@ dependencies {
     mappings minecraft.officialMojangMappings()
     modImplementation "net.fabricmc:fabric-loader:${project.fcloader_version}"
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fc_version}"
+	
+	compile 'io.netty:netty-transport-native-epoll:4.0.28.Final:linux-x86_64'
 
     if (project.cloth_config_version != '')
         modApi "me.shedaniel.cloth:cloth-config-fabric:${project.cloth_config_version}"
