@@ -14,5 +14,5 @@
   "injectors": {
     "defaultRequire": 1
   },
-  "refmap": "MemoryUsageScreen-1.18-refmap.json"
+  "refmap": "MemoryUsageScreen-1.19-refmap.json"
 }
